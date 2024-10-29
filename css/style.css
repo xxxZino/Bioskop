@@ -159,31 +159,42 @@ body {
 
 .about .row {
     display: flex;
+    flex-wrap: wrap; 
+    margin-top: 5rem;
+    justify-content: center;
+    /* gap: 100px; */
 }
+
 
 .about .row .about-img {
-    flex: 1 1 45rem;
+    text-align: center;
+    padding-bottom: 4rem;
+    width: 200px; 
 }
 
+
 .about .row  .about-img img {
-    width: 100%;
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
 }
 
 .about .row .content {
-    flex: 1 1 35rem;
-    padding: 0 1rem;
+    text-align: center;
 }
 
 .about .row .content h3 {
     font-size: 1.8rem;
-    margin-bottom: 1rem;
+    /* margin-top: 0.5rem; */
+
 }
 
 .about .row .content p {
-    margin-bottom: 0.8rem;
     font-size: 1.4rem;
-    font-weight: 100;
     line-height: 1.6;
+    font-weight: 100;
+    margin-top: 0.5rem;
 }
 
 .new h2  {
